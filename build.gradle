@@ -55,7 +55,7 @@ asciidoctor {
 	dependsOn convertSwagger2markup
     sourceDir "/src/main/resources/static/docs/asciidoc"
 	sources {
-		include 'index.adoc'
+		include 'swagger-static-demo.adoc'
 	}
 	backends = ['pdf']
 	attributes = [
